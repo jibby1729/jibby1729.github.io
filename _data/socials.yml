@@ -45,7 +45,4 @@ scholar_userid: XxKtRlMAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: linkedinicon.png # can be png, svg, jpg
-  title: LinkedIn
-  url: https://www.linkedin.com/in/jibran-iqbal-shah/
+
