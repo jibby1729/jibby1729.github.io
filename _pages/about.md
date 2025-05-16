@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! My name is Jibran, and I studied Pure Mathematics at the University of Toronto in my Bachelors. I am also an incoming Masters student in the [Edward S. Rogers Sr. Department of Electrical & Computer Engineering](/https://www.ece.utoronto.ca/) at the University of Toronto, starting Fall 2025. 
+Welcome! My name is Jibran, and I studied Pure Mathematics at the University of Toronto in my Bachelors. I am also an incoming Masters student in the <a href="https://www.ece.utoronto.ca/" target="_blank">Edward S. Rogers Sr. Department of Electrical &amp; Computer Engineering</a> at the University of Toronto, starting Fall 2025.
 
-This summer, I am working in the [Robotics Vision and Learning Lab](/https://rvl.cs.toronto.edu/) under the supervision of Professor [Florian Shkurti](/https://www.cs.toronto.edu/~florian/) on uncertainty calibration in perception-based motion planners. 
+This summer, I am working in the <a href="https://rvl.cs.toronto.edu/" target="_blank">Robotics Vision and Learning Lab</a> under the supervision of Prof. <a href="https://www.cs.toronto.edu/~florian/" target="_blank">Florian Shkurti</a> on uncertainty calibration in perception-based motion planners.
 
 You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
