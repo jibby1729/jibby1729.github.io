@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! My name is Jibran, and this is my personal website. 
+Welcome! My name is Jibran, and this is my personal website (still under construction). 
 
 As an undergraduate, I completed the Mathematics specialist program at the University of Toronto, alongside a minor in Computer Science. I am now an incoming Masters student in the <a href="https://www.ece.utoronto.ca/" target="_blank">Edward S. Rogers Sr. Department of Electrical &amp; Computer Engineering</a> at the University of Toronto, starting Fall 2025.
 
