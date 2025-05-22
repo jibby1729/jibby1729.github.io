@@ -11,19 +11,18 @@ export default function Projects() {
   // - driveLink: URL to a Google Drive document or other resource (optional)
   const projects = [
     {
-      title: "Research Project 1", // CHANGE: Replace with your project title
+      title: "Solvable Lie Algebra Web Symbolic Calculator in C++", // CHANGE: Replace with your project title
       description:
-        "This is a detailed description of the first research project. It includes the methodology, findings, and implications of the research. The project focused on [specific area] and contributed to the field by [specific contribution].", // CHANGE: Replace with your project description
-      tags: ["Machine Learning", "Data Analysis", "Research"], // CHANGE: Replace with relevant tags
-      github: "https://github.com/jibby1729/project1", // CHANGE: Replace with your GitHub repo URL or remove if not applicable
-      driveLink: "https://drive.google.com/file/d/example1", // CHANGE: Replace with your Google Drive link or remove if not applicable
+        "TODO: insert description", // CHANGE: Replace with your project description
+      tags: ["C++", "JavaScript", "MATLAB"], // CHANGE: Replace with relevant tags
+      github: "https://github.com/jibby1729/JosephRepkasSpecialMatrixCalculator", // CHANGE: Replace with your GitHub repo URL or remove if not applicable
     },
     {
-      title: "Academic Exposition on Topic X", // CHANGE: Replace with your exposition title
+      title: "Functional Analytic Proof of PNT", // CHANGE: Replace with your exposition title
       description:
-        "An in-depth exposition on Topic X, exploring the theoretical foundations and practical applications. This work synthesizes current research and proposes new directions for investigation.", // CHANGE: Replace with your exposition description
-      tags: ["Theory", "Literature Review", "Academic Writing"], // CHANGE: Replace with relevant tags
-      driveLink: "https://drive.google.com/file/d/example2", // CHANGE: Replace with your Google Drive link
+        "Writeup of all the details of a functional analytic proof of PNT sketched out in Terry Tao's blog", // CHANGE: Replace with your exposition description
+      tags: ["Pure Math", "LaTeX", "Academic Writing"], // CHANGE: Replace with relevant tags
+      driveLink: "https://drive.google.com/drive/folders/1a9KCHCzP8l1DYxWZEd717bQauuOiuQD7?usp=sharing", // CHANGE: Replace with your Google Drive link
     },
     // CUSTOMIZE: Add more projects by copying the object structure above
     // To add a new project, copy one of the objects above and paste it here

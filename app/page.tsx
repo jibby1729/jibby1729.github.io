@@ -36,14 +36,14 @@ export default function Home() {
             4. Any other personal information you want to share
         */}
         <p className="text-lg">
-          Welcome to my website. I am an incoming Masters student in the ECE department at the University of Toronto. For the summer, I am working under the supervision of Florian Shkurti as part of the RVL Lab on uncertainty calibration in perception based motion planners. 
+          Welcome to my website. I am an incoming Masters student in the ECE department at the University of Toronto. As an Undergraduate, I studied Mathematics and Computer Science at the University of Toronto. For the summer, I am working under the supervision of Florian Shkurti as part of the RVL Lab on uncertainty calibration in perception based motion planners. Previously, I worked as a Summer Research Intern at the Fields Institute, working under the supervision of Asif Zaman on research in Probability Theory. 
         </p>
 
         {/* CUSTOMIZE: Update with additional information about yourself */}
         {/* You can add multiple paragraphs, lists, or other content here */}
         <p className="mt-4">
-          On this site, you can explore my publications, research projects, and academic expositions. Feel free to reach
-          out if you have any questions or would like to discuss potential collaborations.
+          On this site, you can explore my publications/preprints, projects, and academic expositions. Feel free to reach
+          out (preferably by emailing me) if you have any questions or would like to discuss potential collaborations.
         </p>
 
         {/* CUSTOMIZE: To add more sections to your home page:
