@@ -16,7 +16,7 @@ export default function Header() {
         <nav className="flex items-center justify-between h-16">
           {/* CUSTOMIZE: Change the website title */}
           <Link href="/" className="text-xl font-bold text-white">
-            Your Name {/* CHANGE: Replace with your name */}
+            Your Name {Jibran Iqbal Shah/* CHANGE: Replace with your name */}
           </Link>
           <div className="flex space-x-8">
             {/* CUSTOMIZE: You can add or remove navigation links here */}

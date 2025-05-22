@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
         {/* CUSTOMIZE: Update with your name and title */}
-        <h1 className="text-3xl font-bold mb-2">Your Name</h1> {/* CHANGE: Replace with your name */}
+        <h1 className="text-3xl font-bold mb-2">Jibran Iqbal Shah</h1> {/* CHANGE: Replace with your name */}
         <h2 className="text-xl text-gray-300 mb-4">Masters Student, University of Toronto</h2>{" "}
         {/* CHANGE: Update with your title/position */}
         <ContactIcons />
@@ -26,9 +26,7 @@ export default function Home() {
       <div className="prose prose-invert max-w-none">
         {/* CUSTOMIZE: Update with your personal introduction */}
         <p className="text-lg">
-          Welcome to my academic portfolio. I am currently a Masters student at the University of Toronto, focusing on
-          [your research area]. I am passionate about [your interests] and am applying to PhD programs to further my
-          research in this field.
+          Welcome to my academic portfolio. I am an incoming ECE Masters Student at the University of Toronto. For the summer, I am working with Florian Shkurti as part of the RVL Lab. 
         </p>
 
         {/* CUSTOMIZE: Update with additional information about yourself */}
