@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 // CUSTOMIZE: Update the metadata with your name and description
 export const metadata: Metadata = {
   title: "Academic Portfolio | Jibran Iqbal Shah", // CHANGE: Already updated with your name
-  description: "Academic portfolio for Jibran Iqbal Shah, a University of Toronto masters student", // CHANGE: Already updated with your name
+  description: "Jibran's Website", // CHANGE: Already updated with your name
     generator: 'v0.dev'
 }
 

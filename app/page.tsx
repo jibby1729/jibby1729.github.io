@@ -36,9 +36,7 @@ export default function Home() {
             4. Any other personal information you want to share
         */}
         <p className="text-lg">
-          Welcome to my academic portfolio. I am currently a Masters student at the University of Toronto, focusing on
-          [your research area]. I am passionate about [your interests] and am applying to PhD programs to further my
-          research in this field.
+          Welcome to my website. I am an incoming Masters student in the ECE department at the University of Toronto. For the summer, I am working under the supervision of Florian Shkurti as part of the RVL Lab on uncertainty calibration in perception based motion planners. 
         </p>
 
         {/* CUSTOMIZE: Update with additional information about yourself */}

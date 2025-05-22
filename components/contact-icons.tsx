@@ -6,7 +6,7 @@ export default function ContactIcons() {
     <div className="flex justify-center space-x-6 mt-4">
       {/* CUSTOMIZE: Update with your actual email address */}
       <Link
-        href="mailto:your.email@mail.utoronto.ca" // CHANGE: Replace with your email (e.g., jibran.shah@mail.utoronto.ca)
+        href="mailto:jibraniqbal.shah@mail.utoronto.ca" // CHANGE: Replace with your email (e.g., jibran.shah@mail.utoronto.ca)
         className="text-gray-300 hover:text-white transition-colors duration-200"
         aria-label="Email"
       >
@@ -26,7 +26,7 @@ export default function ContactIcons() {
 
       {/* CUSTOMIZE: Update with your actual LinkedIn profile URL */}
       <Link
-        href="https://linkedin.com/in/yourusername" // CHANGE: Replace with your LinkedIn URL (e.g., https://linkedin.com/in/jibran-iqbal-shah)
+        href="https://www.linkedin.com/in/jibran-iqbal-shah/" // CHANGE: Replace with your LinkedIn URL (e.g., https://linkedin.com/in/jibran-iqbal-shah)
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-300 hover:text-white transition-colors duration-200"

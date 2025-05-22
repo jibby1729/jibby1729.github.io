@@ -10,20 +10,11 @@ export default function Publications() {
   // - link: URL to the publication (can be DOI link, journal page, or PDF)
   const publications = [
     {
-      title: "Example Publication Title 1", // CHANGE: Replace with your publication title
-      authors: "Jibran Iqbal Shah, Co-author Name", // CHANGE: Replace with actual authors, keeping your name first
-      journal: "Journal of Example Studies", // CHANGE: Replace with actual journal
-      year: 2023, // CHANGE: Replace with actual year
-      doi: "10.1234/example.1234", // CHANGE: Replace with actual DOI
-      link: "https://doi.org/10.1234/example.1234", // CHANGE: Replace with actual link
-    },
-    {
-      title: "Example Publication Title 2", // CHANGE: Replace with your publication title
-      authors: "Jibran Iqbal Shah, Co-author Name, Another Author", // CHANGE: Replace with actual authors
-      journal: "International Conference on Example Research", // CHANGE: Replace with actual journal/conference
-      year: 2022, // CHANGE: Replace with actual year
-      doi: "10.1234/example.5678", // CHANGE: Replace with actual DOI
-      link: "https://doi.org/10.1234/example.5678", // CHANGE: Replace with actual link
+      title: "Fourier Analysis and the closed form for the Zeta Function at even positive integers", // CHANGE: Replace with your publication title
+      authors: "Jibran Iqbal Shah", // CHANGE: Replace with actual authors, keeping your name first
+      journal: "arXiv Preprint", // CHANGE: Replace with actual journal
+      year: 2020, // CHANGE: Replace with actual year
+      link: "https://arxiv.org/abs/2012.00603", // CHANGE: Replace with actual link
     },
     // CUSTOMIZE: Add more publications by copying the object structure above
     // To add a new publication, copy one of the objects above and paste it here

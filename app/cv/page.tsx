@@ -10,7 +10,7 @@ export default function CV() {
   // 4. Copy the ID from the URL - it's the long string between /d/ and /view
   //    Example: In https://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j/view
   //             The ID is 1a2b3c4d5e6f7g8h9i0j
-  const fileId = "your-cv-file-id" // CHANGE: Replace with your actual Google Drive file ID
+  const fileId = "17VyqNNC3vPoyX5q3GVTFmm13tSvI9ylQ" // CHANGE: Replace with your actual Google Drive file ID
   const cvLink = `https://drive.google.com/file/d/${fileId}/preview`
   const cvDownloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`
 
@@ -30,8 +30,7 @@ export default function CV() {
       <div className="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
         {/* CUSTOMIZE: Update the description if needed */}
         <p className="text-gray-300 mb-6">
-          Below you can view or download my current CV. It contains details about my academic background, research
-          experience, publications, and other relevant information.
+          Below you can view or download my CV (as of 22/05/2025).
         </p>
 
         <div className="flex flex-wrap gap-4">
