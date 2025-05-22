@@ -1,10 +1,17 @@
 export default function Publications() {
   // CUSTOMIZE: Replace with your actual publications
   // Format: title, authors, journal, year, doi, link
+  // For each publication, create an object in this array with the following properties:
+  // - title: The title of your publication
+  // - authors: All authors (including yourself)
+  // - journal: The journal or conference name
+  // - year: Publication year
+  // - doi: Digital Object Identifier (if available)
+  // - link: URL to the publication (can be DOI link, journal page, or PDF)
   const publications = [
     {
       title: "Example Publication Title 1", // CHANGE: Replace with your publication title
-      authors: "Your Name, Co-author Name", // CHANGE: Replace with actual authors
+      authors: "Jibran Iqbal Shah, Co-author Name", // CHANGE: Replace with actual authors, keeping your name first
       journal: "Journal of Example Studies", // CHANGE: Replace with actual journal
       year: 2023, // CHANGE: Replace with actual year
       doi: "10.1234/example.1234", // CHANGE: Replace with actual DOI
@@ -12,13 +19,16 @@ export default function Publications() {
     },
     {
       title: "Example Publication Title 2", // CHANGE: Replace with your publication title
-      authors: "Your Name, Co-author Name, Another Author", // CHANGE: Replace with actual authors
+      authors: "Jibran Iqbal Shah, Co-author Name, Another Author", // CHANGE: Replace with actual authors
       journal: "International Conference on Example Research", // CHANGE: Replace with actual journal/conference
       year: 2022, // CHANGE: Replace with actual year
       doi: "10.1234/example.5678", // CHANGE: Replace with actual DOI
       link: "https://doi.org/10.1234/example.5678", // CHANGE: Replace with actual link
     },
     // CUSTOMIZE: Add more publications by copying the object structure above
+    // To add a new publication, copy one of the objects above and paste it here
+    // Then update all the fields with the information for your new publication
+    // Make sure to add a comma after each object except the last one
   ]
 
   return (
@@ -48,6 +58,12 @@ export default function Publications() {
 
         {publications.length === 0 && <p className="text-gray-400 italic">Publications will be listed here.</p>}
       </div>
+
+      {/* CUSTOMIZE: To change the layout or style of publications:
+          1. Modify the div with className="bg-gray-800 p-6 rounded-lg shadow-md"
+          2. Adjust the spacing, colors, or arrangement of elements
+          3. Add additional fields if needed (e.g., abstract, citation count, etc.)
+      */}
     </div>
   )
 }

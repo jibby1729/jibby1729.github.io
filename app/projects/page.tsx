@@ -3,6 +3,12 @@ import { Github, FileText } from "lucide-react"
 
 export default function Projects() {
   // CUSTOMIZE: Replace with your actual projects and expositions
+  // For each project, create an object in this array with the following properties:
+  // - title: The title of your project or exposition
+  // - description: A detailed description of the project
+  // - tags: An array of keywords/categories for the project
+  // - github: URL to the GitHub repository (optional, remove if not applicable)
+  // - driveLink: URL to a Google Drive document or other resource (optional)
   const projects = [
     {
       title: "Research Project 1", // CHANGE: Replace with your project title
@@ -20,6 +26,9 @@ export default function Projects() {
       driveLink: "https://drive.google.com/file/d/example2", // CHANGE: Replace with your Google Drive link
     },
     // CUSTOMIZE: Add more projects by copying the object structure above
+    // To add a new project, copy one of the objects above and paste it here
+    // Then update all the fields with the information for your new project
+    // Make sure to add a comma after each object except the last one
   ]
 
   return (
@@ -69,6 +78,12 @@ export default function Projects() {
           </div>
         ))}
       </div>
+
+      {/* CUSTOMIZE: To add different types of links or resources:
+          1. Import the appropriate icon from lucide-react at the top of this file
+          2. Add a new property to your project objects (e.g., videoLink, slideLink)
+          3. Create a new conditional Link element similar to the github and driveLink ones
+      */}
     </div>
   )
 }

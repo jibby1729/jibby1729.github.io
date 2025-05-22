@@ -16,10 +16,14 @@ export default function Header() {
         <nav className="flex items-center justify-between h-16">
           {/* CUSTOMIZE: Change the website title */}
           <Link href="/" className="text-xl font-bold text-white">
-            Your Name {Jibran Iqbal Shah/* CHANGE: Replace with your name */}
+            Jibran Iqbal Shah {/* CHANGE: Already updated with your name */}
           </Link>
           <div className="flex space-x-8">
             {/* CUSTOMIZE: You can add or remove navigation links here */}
+            {/* To add a new page: 
+                1. Create a new file in the app directory (e.g., app/new-page/page.tsx)
+                2. Add a new Link element here pointing to that page
+            */}
             <Link href="/" className={`${isActive("/")} transition-colors duration-200`}>
               Home
             </Link>

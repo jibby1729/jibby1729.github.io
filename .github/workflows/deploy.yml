@@ -32,8 +32,7 @@ jobs:
         uses: actions/configure-pages@v4
         
       - name: Install dependencies
-        # Change from npm ci to npm install
-        # Add --legacy-peer-deps flag to resolve dependency conflicts
+        # Use --legacy-peer-deps to resolve dependency conflicts
         run: npm install --legacy-peer-deps
         
       - name: Build with Next.js
