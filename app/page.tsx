@@ -13,7 +13,7 @@ export default function Home() {
         */}
         <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-gray-700">
           <Image
-            src="/placeholder.svg?height=400&width=400" // CHANGE: Replace with "/jibran-photo.jpg" or similar
+            src="face.jpg" // CHANGE: Replace with "/jibran-photo.jpg" or similar
             alt="Jibran Iqbal Shah" // CHANGE: Already updated with your name
             fill
             className="object-cover"
