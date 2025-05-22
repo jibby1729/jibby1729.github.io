@@ -1,0 +1,40 @@
+"use client"
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+
+export default function Header() {
+  const pathname = usePathname()
+
+  const isActive = (path: string) => {
+    return pathname === path ? "text-white border-b-2 border-red-500" : "text-gray-300 hover:text-white"
+  }
+
+  return (
+    <header className="bg-gray-800 shadow-md">
+      <div className="container mx-auto px-4">
+        <nav className="flex items-center justify-between h-16">
+          {/* CUSTOMIZE: Change the website title */}
+          <Link href="/" className="text-xl font-bold text-white">
+            Your Name {/* CHANGE: Replace with your name */}
+          </Link>
+          <div className="flex space-x-8">
+            {/* CUSTOMIZE: You can add or remove navigation links here */}
+            <Link href="/" className={`${isActive("/")} transition-colors duration-200`}>
+              Home
+            </Link>
+            <Link href="/publications" className={`${isActive("/publications")} transition-colors duration-200`}>
+              Publications
+            </Link>
+            <Link href="/projects" className={`${isActive("/projects")} transition-colors duration-200`}>
+              Projects/Expositions
+            </Link>
+            <Link href="/cv" className={`${isActive("/cv")} transition-colors duration-200`}>
+              CV
+            </Link>
+          </div>
+        </nav>
+      </div>
+    </header>
+  )
+}
