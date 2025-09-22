@@ -11,7 +11,7 @@ export default function Home() {
             2. Update the src path below to point to your photo
             3. Make sure the photo is square or crop it to be square for best results
         */}
-        <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-gray-700">
+        <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-border" suppressHydrationWarning>
           <Image
             src="face.jpg" // CHANGE: Replace with "/jibran-photo.jpg" or similar
             alt="Jibran Iqbal Shah" // CHANGE: Already updated with your name
@@ -22,12 +22,12 @@ export default function Home() {
         </div>
         {/* CUSTOMIZE: Update with your name and title */}
         <h1 className="text-3xl font-bold mb-2">Jibran Iqbal Shah</h1> {/* CHANGE: Already updated with your name */}
-        <h2 className="text-xl text-gray-300 mb-4">Masters Student, University of Toronto</h2>{" "}
+        <h2 className="text-xl text-muted-foreground mb-4">Masters Student, University of Toronto</h2>{" "}
         {/* CHANGE: Update with your specific program/department if needed */}
         <ContactIcons />
       </div>
 
-      <div className="prose prose-invert max-w-none">
+      <div className="prose dark:prose-invert max-w-none">
         {/* CUSTOMIZE: Update with your personal introduction */}
         {/* This is the main content of your home page. Replace the placeholder text with:
             1. Your research focus and interests
@@ -36,7 +36,7 @@ export default function Home() {
             4. Any other personal information you want to share
         */}
         <p className="text-lg">
-          Welcome to my website. I am an incoming Masters student in the ECE department at the University of Toronto. As an Undergraduate, I studied Mathematics and Computer Science at the University of Toronto. For the summer, I am working under the supervision of Florian Shkurti as part of the RVL Lab on uncertainty calibration in perception based motion planners. Previously, I worked as a Summer Research Intern at the Fields Institute, working under the supervision of Asif Zaman on research in Probability Theory. 
+          Welcome to my website. I am an incoming Masters student in the ECE department at the University of Toronto. As an Undergraduate, I studied Mathematics at the University of Toronto. For the summer, I am working under the supervision of Florian Shkurti as part of the <a href="https://rvl.cs.toronto.edu/team" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-300 transition-colors">RVL Lab</a> on uncertainty calibration in perception based motion planners. Our work investigates the effects that propagating class uncertainty has on trajectory forecasters, in the context of autonomous driving. Previously, I worked as a Summer Research Intern at the <a href="http://www.fields.utoronto.ca/activities/24-25/2024-FUSRP" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-300 transition-colors">Fields Institute</a>, working under the supervision of Asif Zaman on research in Probability Theory. 
         </p>
 
         {/* CUSTOMIZE: Update with additional information about yourself */}

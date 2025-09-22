@@ -6,7 +6,7 @@ const nextConfig = {
   // It ensures assets are loaded correctly from the base path
   basePath: '',
   // Disable image optimization since GitHub Pages doesn't support it
-  images: { 
+  images: {
     unoptimized: true,
   },
   // Trailing slash is recommended for static exports
@@ -17,6 +17,18 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-};
+  // Performance optimizations
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
+  },
+}
 
 export default nextConfig;

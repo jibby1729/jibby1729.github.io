@@ -7,15 +7,15 @@ export default function Header() {
   const pathname = usePathname()
 
   const isActive = (path: string) => {
-    return pathname === path ? "text-white border-b-2 border-red-500" : "text-gray-300 hover:text-white"
+    return pathname === path ? "text-foreground border-b-2 border-red-500" : "text-muted-foreground hover:text-foreground"
   }
 
   return (
-    <header className="bg-gray-800 shadow-md">
+    <header className="bg-card shadow-md border-b">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between h-16">
           {/* CUSTOMIZE: Change the website title */}
-          <Link href="/" className="text-xl font-bold text-white">
+          <Link href="/" className="text-xl font-bold text-foreground">
             Jibran Iqbal Shah {/* CHANGE: Already updated with your name */}
           </Link>
           <div className="flex space-x-8">

@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/header"
+import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,20 +25,27 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       {/* CUSTOMIZE: You can also add favicon links directly in the head if needed */}
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
-      <body className={`${inter.className} bg-gray-900 text-gray-100 min-h-screen`}>
-        <Header />
-        <main className="container mx-auto px-4 py-8">{children}</main>
-        <footer className="container mx-auto px-4 py-6 text-center text-gray-400 text-sm">
-          {/* CUSTOMIZE: Update the footer text if needed */}© {new Date().getFullYear()} - Jibran Iqbal Shah | Academic
-          Portfolio
-        </footer>
+      <body className={`${inter.className} min-h-screen`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          <main className="container mx-auto px-4 py-8">{children}</main>
+          <footer className="container mx-auto px-4 py-6 text-center text-muted-foreground text-sm">
+            {/* CUSTOMIZE: Update the footer text if needed */}© {new Date().getFullYear()} - Jibran Iqbal Shah | Academic
+            Portfolio
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
   )

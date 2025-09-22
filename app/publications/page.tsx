@@ -14,8 +14,20 @@ export default function Publications() {
       authors: "Jibran Iqbal Shah", // CHANGE: Replace with actual authors, keeping your name first
       journal: "arXiv Preprint", // CHANGE: Replace with actual journal
       year: 2020, // CHANGE: Replace with actual year
+      doi: "arXiv:2012.00603", // CHANGE: Replace with actual DOI
       link: "https://arxiv.org/abs/2012.00603", // CHANGE: Replace with actual link
     },
+
+    {
+      title: "Central Limit Theorems for Random Multiplicative Functions over Function Fields", // CHANGE: Replace with your publication title
+      authors: "Declan Hoban, Jibran Iqbal Shah, Nadya-Catherine Ismail, William Verreault, Asif Zaman",
+      journal: "arXiv Preprint", 
+      year: 2025,
+      doi: "", 
+      link: "", // CHANGE: Replace with actual link
+    },
+
+    
     // CUSTOMIZE: Add more publications by copying the object structure above
     // To add a new publication, copy one of the objects above and paste it here
     // Then update all the fields with the information for your new publication
@@ -24,30 +36,30 @@ export default function Publications() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-8 pb-2 border-b border-gray-700">Publications</h1>
+      <h1 className="text-3xl font-bold mb-8 pb-2 border-b border-border">Publications</h1>
 
       <div className="space-y-8">
         {publications.map((pub, index) => (
-          <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md">
+          <div key={index} className="bg-card p-6 rounded-lg shadow-md border">
             <h2 className="text-xl font-semibold mb-2">
               <a
                 href={pub.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-red-400 hover:text-red-300 transition-colors duration-200"
+                className="text-red-500 hover:text-red-400 transition-colors duration-200"
               >
                 {pub.title}
               </a>
             </h2>
-            <p className="text-gray-300 mb-2">{pub.authors}</p>
-            <p className="text-gray-400 mb-2">
+            <p className="text-muted-foreground mb-2">{pub.authors}</p>
+            <p className="text-muted-foreground mb-2">
               {pub.journal}, {pub.year}
             </p>
-            <p className="text-gray-400">DOI: {pub.doi}</p>
+            <p className="text-muted-foreground">DOI: {pub.doi}</p>
           </div>
         ))}
 
-        {publications.length === 0 && <p className="text-gray-400 italic">Publications will be listed here.</p>}
+        {publications.length === 0 && <p className="text-muted-foreground italic">Publications will be listed here.</p>}
       </div>
 
       {/* CUSTOMIZE: To change the layout or style of publications:
